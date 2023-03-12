@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p>
+            <b>Hi {{.Name}}</b>,
+        </p>
+        <p>
+            Your donation campaign now active, here are the details:
+        </p>
+        <p>
+            <ul>
+                <li>Campaign Name: {{.Campaign.Title}}</li>
+                <li>Goal Amount: {{.GoalAmount}}</li>
+                <li>Campaign Link: {{.CampaignLink}}</li>
+            </ul>
+        </p>
+        <p>
+            Regard's
+            <br>
+            The Cloud Donation Team
+        </p>
+    </body>
+</html>

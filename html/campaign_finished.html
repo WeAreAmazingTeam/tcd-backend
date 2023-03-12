@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p>
+            <b>Hi {{.Name}}</b>,
+        </p>
+        <p>
+            Your donation campaign with title <q>{{.Campaign.Title}}</q> has finished, here are the details:
+        </p>
+        <p>
+            <ul>
+                <li>Goal Amount: {{.GoalAmount}}</li>
+                <li>Collected Funds: {{.CollectedFunds}}</li>
+                <li>Admin Fee: {{.AdminFee}}</li>
+                <li>Final Amount For You: {{.FinalAmount}}</li>
+            </ul>
+        </p>
+        <p>
+            Regard's
+            <br>
+            The Cloud Donation Team
+        </p>
+    </body>
+</html>
