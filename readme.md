@@ -55,6 +55,8 @@ If you really want to run it yourself on your local machine, you can follow thes
     > If you get this error message **"error connection to redis server ..."**, it means you don't have redis server yet on your local machine. You can install and setup redis server first or set DB_CACHING env to "false".
 6. Enjoy and Happy Explore! **#TheCloudFirstWinner**
 
+Or you can see the tutorial through the following video: https://youtu.be/RDywSXGMpXI.
+
 ## Tech Stack
 
 - Go Using Gin Framework
